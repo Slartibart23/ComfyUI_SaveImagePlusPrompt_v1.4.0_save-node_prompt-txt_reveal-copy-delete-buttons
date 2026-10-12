@@ -29,7 +29,7 @@ A standalone image-saving node for ComfyUI, inspired by **LayerUtility: SaveImag
 1. Clone or copy this folder into `ComfyUI/custom_nodes/`:
 
 ```
-git clone https://github.com/Slartibart23/ComfyUI_SaveImagePlusPrompt.git
+git clone https://github.com/Slartibart23/ComfyUI_SaveImagePlusPrompt_v1.4.0_save-node_prompt-txt_reveal-copy-delete-buttons.git
 ```
 
 2. Restart ComfyUI. No additional packages are required.
@@ -95,6 +95,8 @@ arbitrary paths.
 
 ## Version history
 
+- **v1.4.1** - "Reveal in file manager" on Windows now starts Explorer without a
+  shell (safer with unusual file names); fixed the `git clone` URL in the README.
 - **v1.4.0** - "Copy to folder" renamed to "Save Training File"; new
   "Delete Last Generated Image" button (removes image + txt/json sidecars,
   with confirmation).
