@@ -43,7 +43,7 @@ def _open_in_file_manager(path: str) -> None:
     if sys.platform == "win32":
         # explorer /select,"C:\pfad\datei.jpg" markiert die Datei im Ordner.
         # Hinweis: explorer liefert oft Exit-Code 1, das ist KEIN Fehler.
-        subprocess.Popen(f'explorer /select,"{path}"', shell=True)
+        subprocess.Popen(["explorer", "/select,", path])
     elif sys.platform == "darwin":
         subprocess.Popen(["open", "-R", path])
     else:
