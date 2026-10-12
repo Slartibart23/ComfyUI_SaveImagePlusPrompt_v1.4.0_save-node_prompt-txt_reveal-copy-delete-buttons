@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-saveimageplusprompt"
+description = "Save image node for ComfyUI that also writes the prompt as a .txt with the same filename, plus Reveal-in-file-manager, Save Training File (copy image + txt to a folder) and Delete Last Image buttons."
+version = "1.4.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Slartibart23/ComfyUI_SaveImagePlusPrompt_v1.4.0_save-node_prompt-txt_reveal-copy-delete-buttons"
+
+[tool.comfy]
+PublisherId = "slartibart23b"
+DisplayName = "Save Image + Prompt TXT (Copy & Reveal)"
+Icon = ""
